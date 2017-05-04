@@ -9,7 +9,7 @@ import com.ort.smartacc.data.managers.TableManager;
 public class SQLiteHelper extends SQLiteOpenHelper {
 
     private static final String DB_NAME = "smartacc";
-    private static final int DB_VERSION = 13;
+    private static final int DB_VERSION = 14;
 
     Context context;
 

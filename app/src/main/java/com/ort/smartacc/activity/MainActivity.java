@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.loading);
 
         SharedPreferences preferences = getPreferences(Context.MODE_PRIVATE);
-        Log.e("Main", preferences.getBoolean(SERVICE_PREF, false)+"");
+        //Log.e("Main", preferences.getBoolean(SERVICE_PREF, false)+"");
         if(!preferences.getBoolean(SERVICE_PREF, false)) {
             LocalBroadcastManager.getInstance(this).registerReceiver(
                     new ServiceReadyReceiver(),
