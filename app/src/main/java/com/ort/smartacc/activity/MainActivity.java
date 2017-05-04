@@ -37,7 +37,7 @@ import im.delight.apprater.AppRater;
 public class MainActivity extends AppCompatActivity
         implements SearchFragment.OnSearchInteractionCallback {
 
-    private static final String SERVICE_PREF = "service_pref";
+    private static final String SERVICE_PREF = "service_preference";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
